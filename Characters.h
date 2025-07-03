@@ -9,7 +9,7 @@
 using namespace std;
 
 
-class Characters {
+class Character {
 private:
     string name;
     int hp;
@@ -17,7 +17,9 @@ private:
     int wepAtk;
 
 public:
-    explicit Characters(const string &name);
+    explicit Character(const string &name);
+
+    //getters/setters
 
     const string &getName() const;
 

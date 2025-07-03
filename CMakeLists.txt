@@ -3,4 +3,4 @@ project(FinalFantacyTacticsAdvance)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(FinalFantacyTacticsAdvance main.cpp Characters.cpp Characters.h)
+add_executable(FinalFantacyTacticsAdvance main.cpp Characters.cpp Characters.h GameBoard.cpp GameBoard.h)

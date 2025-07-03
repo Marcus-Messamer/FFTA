@@ -61,6 +61,12 @@ build CMakeFiles/FinalFantacyTacticsAdvance.dir/Characters.cpp.obj: CXX_COMPILER
   OBJECT_DIR = CMakeFiles\FinalFantacyTacticsAdvance.dir
   OBJECT_FILE_DIR = CMakeFiles\FinalFantacyTacticsAdvance.dir
 
+build CMakeFiles/FinalFantacyTacticsAdvance.dir/GameBoard.cpp.obj: CXX_COMPILER__FinalFantacyTacticsAdvance_Debug C$:/Users/Owner/OneDrive$ -$ Texas$ Christian$ University/Documents/FinalFantacyTacticsAdvance/GameBoard.cpp || cmake_object_order_depends_target_FinalFantacyTacticsAdvance
+  DEP_FILE = CMakeFiles\FinalFantacyTacticsAdvance.dir\GameBoard.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\FinalFantacyTacticsAdvance.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinalFantacyTacticsAdvance.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target FinalFantacyTacticsAdvance
@@ -69,7 +75,7 @@ build CMakeFiles/FinalFantacyTacticsAdvance.dir/Characters.cpp.obj: CXX_COMPILER
 #############################################
 # Link the executable FinalFantacyTacticsAdvance.exe
 
-build FinalFantacyTacticsAdvance.exe: CXX_EXECUTABLE_LINKER__FinalFantacyTacticsAdvance_Debug CMakeFiles/FinalFantacyTacticsAdvance.dir/main.cpp.obj CMakeFiles/FinalFantacyTacticsAdvance.dir/Characters.cpp.obj
+build FinalFantacyTacticsAdvance.exe: CXX_EXECUTABLE_LINKER__FinalFantacyTacticsAdvance_Debug CMakeFiles/FinalFantacyTacticsAdvance.dir/main.cpp.obj CMakeFiles/FinalFantacyTacticsAdvance.dir/Characters.cpp.obj CMakeFiles/FinalFantacyTacticsAdvance.dir/GameBoard.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\FinalFantacyTacticsAdvance.dir

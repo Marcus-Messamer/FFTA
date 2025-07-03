@@ -1,18 +1,4 @@
 # ninja log v5
-3	262	7730711585124577	CMakeFiles/FinalFantacyTacticsAdvance.dir/main.cpp.obj	bb8713fb83a003e4
-277	420	7730708536597871	FinalFantacyTacticsAdvance.exe	fc5a5453331e9c0b
-7	312	7730718632096269	CMakeFiles/FinalFantacyTacticsAdvance.dir/Characters.cpp.obj	ba7ffbae338d8905
-3	316	7730718632121566	CMakeFiles/FinalFantacyTacticsAdvance.dir/main.cpp.obj	bb8713fb83a003e4
-316	624	7730718635184213	FinalFantacyTacticsAdvance.exe	85870c36ec761aa7
-2	254	7730719211337899	CMakeFiles/FinalFantacyTacticsAdvance.dir/main.cpp.obj	bb8713fb83a003e4
-255	351	7730719212275933	FinalFantacyTacticsAdvance.exe	85870c36ec761aa7
-3	264	7730720181858817	CMakeFiles/FinalFantacyTacticsAdvance.dir/main.cpp.obj	bb8713fb83a003e4
-265	363	7730720182827014	FinalFantacyTacticsAdvance.exe	85870c36ec761aa7
-2	275	7730720535340906	CMakeFiles/FinalFantacyTacticsAdvance.dir/main.cpp.obj	bb8713fb83a003e4
-276	373	7730720536280613	FinalFantacyTacticsAdvance.exe	85870c36ec761aa7
-3	271	7730720696865761	CMakeFiles/FinalFantacyTacticsAdvance.dir/main.cpp.obj	bb8713fb83a003e4
-272	370	7730720697818746	FinalFantacyTacticsAdvance.exe	85870c36ec761aa7
-3	264	7730721197967713	CMakeFiles/FinalFantacyTacticsAdvance.dir/main.cpp.obj	bb8713fb83a003e4
-265	361	7730721198911416	FinalFantacyTacticsAdvance.exe	85870c36ec761aa7
 2	267	7730721389044874	CMakeFiles/FinalFantacyTacticsAdvance.dir/main.cpp.obj	bb8713fb83a003e4
 267	363	7730721389972589	FinalFantacyTacticsAdvance.exe	85870c36ec761aa7
+7	312	7730718632096269	CMakeFiles/FinalFantacyTacticsAdvance.dir/Characters.cpp.obj	ba7ffbae338d8905

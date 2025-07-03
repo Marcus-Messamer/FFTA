@@ -3,42 +3,53 @@
 //
 
 #include "Characters.h"
+#include "GameBoard.h"
+using namespace CommandLine;
 
-const string &Characters::getName() const {
+
+//getters/setters
+
+const string &Character::getName() const {
     return name;
 }
 
-void Characters::setName(const string &name) {
-    Characters::name = name;
+void Character::setName(const string &name) {
+    Character::name = name;
 }
 
-int Characters::getHp() const {
+int Character::getHp() const {
     return hp;
 }
 
-void Characters::setHp(int hp) {
-    Characters::hp = hp;
+void Character::setHp(int hp) {
+    Character::hp = hp;
 }
 
-int Characters::getLevel() const {
+int Character::getLevel() const {
     return level;
 }
 
-void Characters::setLevel(int level) {
-    Characters::level = level;
+void Character::setLevel(int level) {
+    Character::level = level;
 }
 
-int Characters::getWepAtk() const {
+int Character::getWepAtk() const {
     return wepAtk;
 }
 
-void Characters::setWepAtk(int wepAtk) {
-    Characters::wepAtk = wepAtk;
+void Character::setWepAtk(int wepAtk) {
+    Character::wepAtk = wepAtk;
 }
 
-Characters::Characters(const string &name) : name(name) {
-    Characters::setName(name);
-    Characters::setLevel(3);
-    Characters::setHp(100);
-    Characters::setWepAtk(10);
+Character::Character(const string &name) : name(name) {
+    Character::setName(name);
+    Character::setLevel(3);
+    Character::setHp(100);
+    Character::setWepAtk(10);
 }
+
+//todo - overload the constructor
+
+
+
+

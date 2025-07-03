@@ -3,7 +3,7 @@
 
 
 int main() {
-    Characters mc("marcus");
+    Character mc("marcus");
     int x = mc.getLevel();
     std::cout << mc.getLevel()<< "test test test" << std::endl;
     return 0;
